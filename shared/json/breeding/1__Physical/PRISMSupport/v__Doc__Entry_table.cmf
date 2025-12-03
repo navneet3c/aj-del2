@@ -1,0 +1,233 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="v_Doc_Entry" path="/shared/json/breeding/1_Physical/PRISMSupport/v_Doc_Entry" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <annotation><![CDATA[View automatically generated on 2025-02-26 13:43:02.812]]></annotation>
+  <columns>
+    <column name="Doc_ID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="Parent_Doc_Id" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="Doc_Type" nullable="true">
+      <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="Project_ID" nullable="true">
+      <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="Season_Id" nullable="true">
+      <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="Doc_Name" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="Initial_AutoInc" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="Last_RowId" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="Checked_Out_Id" nullable="true">
+      <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="Doc_Extra" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="Date_Created" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="Lock_People_Id" nullable="true">
+      <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="Loc_Id" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="CREATE_PEOPLE_ID" nullable="true">
+      <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="AB1013_ROWID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="Skip_InvUpdate" nullable="true">
+      <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="Book_Count" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="DCE_BAYER_UID" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="Hist_Start_Doc_Id" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="admin" domain="composite"/>
+    <privilege group="all" domain="composite" privileges="READ SELECT"/>
+  </security>
+  <dependency target="/shared/json/breeding/0_Sources/ds_PRISMSupport/PRISMPRODVeg_Support/prism/V_Doc_Entry" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="Doc_ID" nullable="false">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="Parent_Doc_Id">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="Doc_Type">
+        <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+      </element>
+      <element name="Project_ID">
+        <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+      </element>
+      <element name="Season_Id">
+        <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+      </element>
+      <element name="Doc_Name">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="Initial_AutoInc">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="Last_RowId">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="Checked_Out_Id">
+        <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+      </element>
+      <element name="Doc_Extra">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="Date_Created">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="Lock_People_Id">
+        <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+      </element>
+      <element name="Loc_Id" nullable="false">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="CREATE_PEOPLE_ID">
+        <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+      </element>
+      <element name="AB1013_ROWID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="Skip_InvUpdate">
+        <datatype type="INTEGER" minValue="0" maxValue="255"/>
+      </element>
+      <element name="Book_Count">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="DCE_BAYER_UID">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="Hist_Start_Doc_Id">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+    </datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">/*
+Purpose of object:&#x9;Unlock datasource ds_PRISMSupport
+DomainCode:&#x9;&#x9;&#x9;NONE00000
+CodeHeaderVersion:&#x9;CHV·100
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;                    
+Ticket______Date________Author______________Description__________________________________________________________________
+VSDS-834&#x9;26-02-2025&#x9;gcbsm               (Re-)generated object including header.
+
+_________________________________________________________________________________________________________________________ 
+The following parameters were used during generation:
+tableNameMask&#x9;&#x9;:&#x9;{% = all tables}
+destinationFolder&#x9;:&#x9;{default}
+*/
+SELECT&#x9;&quot;Doc_ID&quot;
+,&#x9;&#x9;&quot;Parent_Doc_Id&quot;
+,&#x9;&#x9;&quot;Doc_Type&quot;
+,&#x9;&#x9;&quot;Project_ID&quot;
+,&#x9;&#x9;&quot;Season_Id&quot;
+,&#x9;&#x9;&quot;Doc_Name&quot;
+,&#x9;&#x9;&quot;Initial_AutoInc&quot;
+,&#x9;&#x9;&quot;Last_RowId&quot;
+,&#x9;&#x9;&quot;Checked_Out_Id&quot;
+,&#x9;&#x9;&quot;Doc_Extra&quot;
+,&#x9;&#x9;&quot;Date_Created&quot;
+,&#x9;&#x9;&quot;Lock_People_Id&quot;
+,&#x9;&#x9;&quot;Loc_Id&quot;
+,&#x9;&#x9;&quot;CREATE_PEOPLE_ID&quot;
+,&#x9;&#x9;&quot;AB1013_ROWID&quot;
+,&#x9;&#x9;&quot;Skip_InvUpdate&quot;
+,&#x9;&#x9;&quot;Book_Count&quot;
+,&#x9;&#x9;&quot;DCE_BAYER_UID&quot;
+,&#x9;&#x9;&quot;Hist_Start_Doc_Id&quot;
+FROM&#x9;/shared/json/breeding/&quot;0_Sources&quot;/ds_PRISMSupport/PRISMPRODVeg_Support/prism/V_Doc_Entry</attribute>
+  <attribute name="creationDate" type="LONG">1662720918395</attribute>
+  <attribute name="creatorUserDomain" type="STRING">adpa6.local</attribute>
+  <attribute name="creatorUserId" type="INTEGER">20149</attribute>
+  <attribute name="creatorUserName" type="STRING">zzhnw</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="impactLevelLabel" type="STRING">NONE</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1756480060250</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">-1973</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">admin</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1662720918395</attribute>
+</metadata>

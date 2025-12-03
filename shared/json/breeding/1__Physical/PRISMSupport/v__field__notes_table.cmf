@@ -1,0 +1,733 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="v_field_notes" path="/shared/json/breeding/1_Physical/PRISMSupport/v_field_notes" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <annotation><![CDATA[View automatically generated on 2025-02-26 13:43:03.796]]></annotation>
+  <columns>
+    <column name="doc_id" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="C_FARMER_S_NAME" nullable="true">
+      <datatype type="STRING" maxLength="100"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="C_DATE_HARVESTED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="C_DATE_PLANTED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="C_PHONE_NUMBER" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="C_ZONE" nullable="true">
+      <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="C_LONGITUDE" nullable="true">
+      <datatype type="DECIMAL" maxDigits="8" maxFractionalDigits="5"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="C_LATITUDE" nullable="true">
+      <datatype type="DECIMAL" maxDigits="8" maxFractionalDigits="5"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="CG_WKS_COMMENT" nullable="true">
+      <datatype type="STRING" maxLength="200"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="C_REC_DATE_MODIFIED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="C_REC_WHO_MODIFIED" nullable="true">
+      <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="C_DATETRANSPLANTED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="CG_ROWS_PER_PLOT" nullable="true">
+      <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="C_ROWLENGTH" nullable="true">
+      <datatype type="DECIMAL" maxDigits="5" maxFractionalDigits="2"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="C_ROWDISTANCE" nullable="true">
+      <datatype type="DECIMAL" maxDigits="7" maxFractionalDigits="5"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="C_PLANTSPLOT" nullable="true">
+      <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="C_BOOKDESCRIPTION" nullable="true">
+      <datatype type="STRING" maxLength="500"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="C_PLOTSIZE" nullable="true">
+      <datatype type="DECIMAL" maxDigits="6" maxFractionalDigits="2"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="C_PLOTSIZECOMMENTS" nullable="true">
+      <datatype type="STRING" maxLength="100"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="C_IMAGEFIELD" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="C_PLANTDISTANCEM" nullable="true">
+      <datatype type="DECIMAL" maxDigits="7" maxFractionalDigits="5"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="C_SUBLOCATION" nullable="true">
+      <datatype type="STRING" maxLength="100"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="C_ADDITIONALDATAFILE" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="C_DATEGERMOBSERVED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="C_EXP_STAGE" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="C_SOILTYPE" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="C_IRRIGATIONTYPE" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="C_TRIALVALUE" nullable="true">
+      <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="C_FIELDVARIETY" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="C_TRIALGENERALCOMMENTS" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="C_SHIPMENT_PURPOSE_INTERNAL" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="C_DEPARTMENT_NAME_INTERNAL" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="C_AD_ATTENTION" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="C_SHIPPED_FROM_COUNTRY" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="C_SHIPPED_TO_COUNTRY" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="C_SHIPMENTCOMMENTSSENDER" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="C_SHIPMENTDOCUMENTSSENDER_A" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="C_SHIPMENTDOCUMENTSSENDER_B" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="C_SHIPMENTCOMMENTSRECEIVER" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="C_SHIPMENTDOCUMENTSRECEIVER" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="C_SHIPMENTDOCUMENTSRECEIVER_1" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="C_BOOKNAMEORIGINALSHIPPING" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="C_SHIPPED_BY" nullable="true">
+      <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="C_ADDRESS1" nullable="true">
+      <datatype type="STRING" maxLength="100"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="C_COMPANY" nullable="true">
+      <datatype type="STRING" maxLength="100"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="C_ZIP_CODE" nullable="true">
+      <datatype type="STRING" maxLength="10"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="C_ADDRESS2" nullable="true">
+      <datatype type="STRING" maxLength="100"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="C_SHIP_DATE" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="C_SHIPMENT_TRACKING_NUM" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="C_PERMIT_NUM" nullable="true">
+      <datatype type="STRING" maxLength="40"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="C_RECEIVED_BY" nullable="true">
+      <datatype type="STRING" maxLength="40"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="C_DEPARTMENT_NAME_EXTERNAL" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="C_SHIPMENT_PURPOSE" nullable="true">
+      <datatype type="STRING" maxLength="200"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="C_GM_ABSENCE_TESTING_DONE" nullable="true">
+      <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="C_CDH_LOCATION_ID" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="C_TIMETELLNR" nullable="true">
+      <datatype type="STRING" maxLength="10"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="C_DATESAMPLED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="C_FORECASTID" nullable="true">
+      <datatype type="STRING" maxLength="50"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="C_NUMPLATES" nullable="true">
+      <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="C_NUMPLANTSTOTAL" nullable="true">
+      <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="C_DATETREATED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="C_DATEPLANTING" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="C_DATECROPEND" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="C_NUMPLANTSPLANTED" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="CG_CREATE_LOCATION" nullable="true">
+      <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="CG_CREATE_BOOK_SEASON" nullable="true">
+      <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="C_TRIALLOCATION_SF_LI" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="C_ENVIRONMENT" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="C_ARTIFICIALLIGHT" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="admin" domain="composite"/>
+    <privilege group="all" domain="composite" privileges="READ SELECT"/>
+  </security>
+  <dependency target="/shared/json/breeding/0_Sources/ds_PRISMSupport/PRISMPRODVeg_Support/prism/V_field_notes" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="doc_id" nullable="false">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="C_FARMER_S_NAME">
+        <datatype type="STRING" maxLength="100"/>
+      </element>
+      <element name="C_DATE_HARVESTED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="C_DATE_PLANTED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="C_PHONE_NUMBER">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+      <element name="C_ZONE">
+        <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+      </element>
+      <element name="C_LONGITUDE">
+        <datatype type="DECIMAL" maxDigits="8" maxFractionalDigits="5"/>
+      </element>
+      <element name="C_LATITUDE">
+        <datatype type="DECIMAL" maxDigits="8" maxFractionalDigits="5"/>
+      </element>
+      <element name="CG_WKS_COMMENT">
+        <datatype type="STRING" maxLength="200"/>
+      </element>
+      <element name="C_REC_DATE_MODIFIED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="C_REC_WHO_MODIFIED">
+        <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+      </element>
+      <element name="C_DATETRANSPLANTED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="CG_ROWS_PER_PLOT">
+        <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+      </element>
+      <element name="C_ROWLENGTH">
+        <datatype type="DECIMAL" maxDigits="5" maxFractionalDigits="2"/>
+      </element>
+      <element name="C_ROWDISTANCE">
+        <datatype type="DECIMAL" maxDigits="7" maxFractionalDigits="5"/>
+      </element>
+      <element name="C_PLANTSPLOT">
+        <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+      </element>
+      <element name="C_BOOKDESCRIPTION">
+        <datatype type="STRING" maxLength="500"/>
+      </element>
+      <element name="C_PLOTSIZE">
+        <datatype type="DECIMAL" maxDigits="6" maxFractionalDigits="2"/>
+      </element>
+      <element name="C_PLOTSIZECOMMENTS">
+        <datatype type="STRING" maxLength="100"/>
+      </element>
+      <element name="C_IMAGEFIELD">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="C_PLANTDISTANCEM">
+        <datatype type="DECIMAL" maxDigits="7" maxFractionalDigits="5"/>
+      </element>
+      <element name="C_SUBLOCATION">
+        <datatype type="STRING" maxLength="100"/>
+      </element>
+      <element name="C_ADDITIONALDATAFILE">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="C_DATEGERMOBSERVED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="C_EXP_STAGE">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="C_SOILTYPE">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="C_IRRIGATIONTYPE">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="C_TRIALVALUE">
+        <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+      </element>
+      <element name="C_FIELDVARIETY">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="C_TRIALGENERALCOMMENTS">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="C_SHIPMENT_PURPOSE_INTERNAL">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="C_DEPARTMENT_NAME_INTERNAL">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="C_AD_ATTENTION">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="C_SHIPPED_FROM_COUNTRY">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="C_SHIPPED_TO_COUNTRY">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="C_SHIPMENTCOMMENTSSENDER">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="C_SHIPMENTDOCUMENTSSENDER_A">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="C_SHIPMENTDOCUMENTSSENDER_B">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="C_SHIPMENTCOMMENTSRECEIVER">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="C_SHIPMENTDOCUMENTSRECEIVER">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="C_SHIPMENTDOCUMENTSRECEIVER_1">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="C_BOOKNAMEORIGINALSHIPPING">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="C_SHIPPED_BY">
+        <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+      </element>
+      <element name="C_ADDRESS1">
+        <datatype type="STRING" maxLength="100"/>
+      </element>
+      <element name="C_COMPANY">
+        <datatype type="STRING" maxLength="100"/>
+      </element>
+      <element name="C_ZIP_CODE">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+      <element name="C_ADDRESS2">
+        <datatype type="STRING" maxLength="100"/>
+      </element>
+      <element name="C_SHIP_DATE">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="C_SHIPMENT_TRACKING_NUM">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="C_PERMIT_NUM">
+        <datatype type="STRING" maxLength="40"/>
+      </element>
+      <element name="C_RECEIVED_BY">
+        <datatype type="STRING" maxLength="40"/>
+      </element>
+      <element name="C_DEPARTMENT_NAME_EXTERNAL">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="C_SHIPMENT_PURPOSE">
+        <datatype type="STRING" maxLength="200"/>
+      </element>
+      <element name="C_GM_ABSENCE_TESTING_DONE">
+        <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+      </element>
+      <element name="C_CDH_LOCATION_ID">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="C_TIMETELLNR">
+        <datatype type="STRING" maxLength="10"/>
+      </element>
+      <element name="C_DATESAMPLED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="C_FORECASTID">
+        <datatype type="STRING" maxLength="50"/>
+      </element>
+      <element name="C_NUMPLATES">
+        <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+      </element>
+      <element name="C_NUMPLANTSTOTAL">
+        <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+      </element>
+      <element name="C_DATETREATED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="C_DATEPLANTING">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="C_DATECROPEND">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="C_NUMPLANTSPLANTED">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="CG_CREATE_LOCATION">
+        <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+      </element>
+      <element name="CG_CREATE_BOOK_SEASON">
+        <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+      </element>
+      <element name="C_TRIALLOCATION_SF_LI">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="C_ENVIRONMENT">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="C_ARTIFICIALLIGHT">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+    </datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">/*
+Purpose of object:&#x9;Unlock datasource ds_PRISMSupport
+DomainCode:&#x9;&#x9;&#x9;NONE00000
+CodeHeaderVersion:&#x9;CHV·100
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;                    
+Ticket______Date________Author______________Description__________________________________________________________________
+VSDS-1599&#x9;29-07-2025&#x9;bnaer               (Re-)generated object including header.
+
+_________________________________________________________________________________________________________________________ 
+The following parameters were used during generation:
+tableNameMask&#x9;&#x9;:&#x9;V_field_notes
+destinationFolder&#x9;:&#x9;/shared/breeding/1_Physical/PRISMSupport
+*/
+SELECT&#x9;&quot;doc_id&quot;
+,&#x9;&#x9;&quot;C_FARMER_S_NAME&quot;
+,&#x9;&#x9;&quot;C_DATE_HARVESTED&quot;
+,&#x9;&#x9;&quot;C_DATE_PLANTED&quot;
+,&#x9;&#x9;&quot;C_PHONE_NUMBER&quot;
+,&#x9;&#x9;&quot;C_ZONE&quot;
+,&#x9;&#x9;&quot;C_LONGITUDE&quot;
+,&#x9;&#x9;&quot;C_LATITUDE&quot;
+,&#x9;&#x9;&quot;CG_WKS_COMMENT&quot;
+,&#x9;&#x9;&quot;C_REC_DATE_MODIFIED&quot;
+,&#x9;&#x9;&quot;C_REC_WHO_MODIFIED&quot;
+,&#x9;&#x9;&quot;C_DATETRANSPLANTED&quot;
+,&#x9;&#x9;&quot;CG_ROWS_PER_PLOT&quot;
+,&#x9;&#x9;&quot;C_ROWLENGTH&quot;
+,&#x9;&#x9;&quot;C_ROWDISTANCE&quot;
+,&#x9;&#x9;&quot;C_PLANTSPLOT&quot;
+,&#x9;&#x9;&quot;C_BOOKDESCRIPTION&quot;
+,&#x9;&#x9;&quot;C_PLOTSIZE&quot;
+,&#x9;&#x9;&quot;C_PLOTSIZECOMMENTS&quot;
+,&#x9;&#x9;&quot;C_IMAGEFIELD&quot;
+,&#x9;&#x9;&quot;C_PLANTDISTANCEM&quot;
+,&#x9;&#x9;&quot;C_SUBLOCATION&quot;
+,&#x9;&#x9;&quot;C_ADDITIONALDATAFILE&quot;
+,&#x9;&#x9;&quot;C_DATEGERMOBSERVED&quot;
+,&#x9;&#x9;&quot;C_EXP_STAGE&quot;
+,&#x9;&#x9;&quot;C_SOILTYPE&quot;
+,&#x9;&#x9;&quot;C_IRRIGATIONTYPE&quot;
+,&#x9;&#x9;&quot;C_TRIALVALUE&quot;
+,&#x9;&#x9;&quot;C_FIELDVARIETY&quot;
+,&#x9;&#x9;&quot;C_TRIALGENERALCOMMENTS&quot;
+,&#x9;&#x9;&quot;C_SHIPMENT_PURPOSE_INTERNAL&quot;
+,&#x9;&#x9;&quot;C_DEPARTMENT_NAME_INTERNAL&quot;
+,&#x9;&#x9;&quot;C_AD_ATTENTION&quot;
+,&#x9;&#x9;&quot;C_SHIPPED_FROM_COUNTRY&quot;
+,&#x9;&#x9;&quot;C_SHIPPED_TO_COUNTRY&quot;
+,&#x9;&#x9;&quot;C_SHIPMENTCOMMENTSSENDER&quot;
+,&#x9;&#x9;&quot;C_SHIPMENTDOCUMENTSSENDER_A&quot;
+,&#x9;&#x9;&quot;C_SHIPMENTDOCUMENTSSENDER_B&quot;
+,&#x9;&#x9;&quot;C_SHIPMENTCOMMENTSRECEIVER&quot;
+,&#x9;&#x9;&quot;C_SHIPMENTDOCUMENTSRECEIVER&quot;
+,&#x9;&#x9;&quot;C_SHIPMENTDOCUMENTSRECEIVER_1&quot;
+,&#x9;&#x9;&quot;C_BOOKNAMEORIGINALSHIPPING&quot;
+,&#x9;&#x9;&quot;C_SHIPPED_BY&quot;
+,&#x9;&#x9;&quot;C_ADDRESS1&quot;
+,&#x9;&#x9;&quot;C_COMPANY&quot;
+,&#x9;&#x9;&quot;C_ZIP_CODE&quot;
+,&#x9;&#x9;&quot;C_ADDRESS2&quot;
+,&#x9;&#x9;&quot;C_SHIP_DATE&quot;
+,&#x9;&#x9;&quot;C_SHIPMENT_TRACKING_NUM&quot;
+,&#x9;&#x9;&quot;C_PERMIT_NUM&quot;
+,&#x9;&#x9;&quot;C_RECEIVED_BY&quot;
+,&#x9;&#x9;&quot;C_DEPARTMENT_NAME_EXTERNAL&quot;
+,&#x9;&#x9;&quot;C_SHIPMENT_PURPOSE&quot;
+,&#x9;&#x9;&quot;C_GM_ABSENCE_TESTING_DONE&quot;
+,&#x9;&#x9;&quot;C_CDH_LOCATION_ID&quot;
+,&#x9;&#x9;&quot;C_TIMETELLNR&quot;
+,&#x9;&#x9;&quot;C_DATESAMPLED&quot;
+,&#x9;&#x9;&quot;C_FORECASTID&quot;
+,&#x9;&#x9;&quot;C_NUMPLATES&quot;
+,&#x9;&#x9;&quot;C_NUMPLANTSTOTAL&quot;
+,&#x9;&#x9;&quot;C_DATETREATED&quot;
+,&#x9;&#x9;&quot;C_DATEPLANTING&quot;
+,&#x9;&#x9;&quot;C_DATECROPEND&quot;
+,&#x9;&#x9;&quot;C_NUMPLANTSPLANTED&quot;
+,&#x9;&#x9;&quot;CG_CREATE_LOCATION&quot;
+,&#x9;&#x9;&quot;CG_CREATE_BOOK_SEASON&quot;
+,&#x9;&#x9;&quot;C_TRIALLOCATION_SF_LI&quot;
+,&#x9;&#x9;&quot;C_ENVIRONMENT&quot;
+,&#x9;&#x9;&quot;C_ARTIFICIALLIGHT&quot;
+FROM&#x9;/shared/json/breeding/&quot;0_Sources&quot;/ds_PRISMSupport/PRISMPRODVeg_Support/prism/V_field_notes</attribute>
+  <attribute name="creationDate" type="LONG">1676550438732</attribute>
+  <attribute name="creatorUserDomain" type="STRING">adpa6.local</attribute>
+  <attribute name="creatorUserId" type="INTEGER">30126</attribute>
+  <attribute name="creatorUserName" type="STRING">gcbsm</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="impactLevelLabel" type="STRING">NONE</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1756480060250</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">-1973</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">admin</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1676550438732</attribute>
+</metadata>

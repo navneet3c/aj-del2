@@ -1,0 +1,213 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!-- salt:d592c412-f19b-319c-a531-ead4825a55df -->
+<metadata name="v_Crop_Entry" path="/shared/json/breeding/1_Physical/PRISMSupport/v_Crop_Entry" type="TABLE" subtype="SQL_TABLE" changeToken="0" tableType="VIEW">
+  <annotation><![CDATA[View automatically generated on 2025-02-26 13:43:03.298]]></annotation>
+  <columns>
+    <column name="Crop_id" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="Crop_Name" nullable="true">
+      <datatype type="STRING" maxLength="80"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="C_CROP_RD_TEAM_LEADER" nullable="true">
+      <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="C_CROP_USER_RESPONSIBLE" nullable="true">
+      <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="C_CROP_AMRD_RESPONSIBLE" nullable="true">
+      <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="C_CROP_GROUP" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="C_CROP_LOCATION" nullable="true">
+      <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="C_CROP_COMMENTS" nullable="true">
+      <datatype type="STRING" maxLength="250"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="C_CROP_ACTIVE" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="CL_REC_DATE_CREATED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="C_REC_WHO_CREATED" nullable="true">
+      <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="C_REC_DATE_MODIFIED" nullable="true">
+      <datatype type="DATETIME"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="C_REC_WHO_MODIFIED" nullable="true">
+      <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="C_CROPGMCATEGORY" nullable="true">
+      <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="CRP_BAYER_UID" nullable="true">
+      <datatype type="STRING" maxLength="20"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="C_OLS_UUID" nullable="true">
+      <datatype type="STRING" maxLength="255"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+    <column name="C_OLS_ID" nullable="true">
+      <datatype type="STRING" maxLength="30"/>
+      <security>
+        <owner user="admin" domain="composite"/>
+      </security>
+    </column>
+  </columns>
+  <indexes></indexes>
+  <foreignKeys></foreignKeys>
+  <security>
+    <owner user="admin" domain="composite"/>
+    <privilege group="all" domain="composite" privileges="READ SELECT"/>
+  </security>
+  <dependency target="/shared/json/breeding/0_Sources/ds_PRISMSupport/PRISMPRODVeg_Support/prism/V_Crop_Entry" type="TABLE">
+    <datatype type="TABLE" refId="256">
+      <element name="Crop_id" nullable="false">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="Crop_Name">
+        <datatype type="STRING" maxLength="80"/>
+      </element>
+      <element name="C_CROP_RD_TEAM_LEADER">
+        <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+      </element>
+      <element name="C_CROP_USER_RESPONSIBLE">
+        <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+      </element>
+      <element name="C_CROP_AMRD_RESPONSIBLE">
+        <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+      </element>
+      <element name="C_CROP_GROUP">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="C_CROP_LOCATION">
+        <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+      </element>
+      <element name="C_CROP_COMMENTS">
+        <datatype type="STRING" maxLength="250"/>
+      </element>
+      <element name="C_CROP_ACTIVE">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="CL_REC_DATE_CREATED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="C_REC_WHO_CREATED">
+        <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+      </element>
+      <element name="C_REC_DATE_MODIFIED">
+        <datatype type="DATETIME"/>
+      </element>
+      <element name="C_REC_WHO_MODIFIED">
+        <datatype type="INTEGER" minValue="-32768" maxValue="32767"/>
+      </element>
+      <element name="C_CROPGMCATEGORY">
+        <datatype type="INTEGER" minValue="-2147483648" maxValue="2147483647"/>
+      </element>
+      <element name="CRP_BAYER_UID">
+        <datatype type="STRING" maxLength="20"/>
+      </element>
+      <element name="C_OLS_UUID">
+        <datatype type="STRING" maxLength="255"/>
+      </element>
+      <element name="C_OLS_ID">
+        <datatype type="STRING" maxLength="30"/>
+      </element>
+    </datatype>
+  </dependency>
+  <attribute name="SQL" type="STRING">/*
+Purpose of object:&#x9;Unlock datasource ds_PRISMSupport
+DomainCode:&#x9;&#x9;&#x9;NONE00000
+CodeHeaderVersion:&#x9;CHV·100
+&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;                    
+Ticket______Date________Author______________Description__________________________________________________________________
+VSDS-834&#x9;26-02-2025&#x9;gcbsm               (Re-)generated object including header.
+
+_________________________________________________________________________________________________________________________ 
+The following parameters were used during generation:
+tableNameMask&#x9;&#x9;:&#x9;{% = all tables}
+destinationFolder&#x9;:&#x9;{default}
+*/
+SELECT&#x9;&quot;Crop_id&quot;
+,&#x9;&#x9;&quot;Crop_Name&quot;
+,&#x9;&#x9;&quot;C_CROP_RD_TEAM_LEADER&quot;
+,&#x9;&#x9;&quot;C_CROP_USER_RESPONSIBLE&quot;
+,&#x9;&#x9;&quot;C_CROP_AMRD_RESPONSIBLE&quot;
+,&#x9;&#x9;&quot;C_CROP_GROUP&quot;
+,&#x9;&#x9;&quot;C_CROP_LOCATION&quot;
+,&#x9;&#x9;&quot;C_CROP_COMMENTS&quot;
+,&#x9;&#x9;&quot;C_CROP_ACTIVE&quot;
+,&#x9;&#x9;&quot;CL_REC_DATE_CREATED&quot;
+,&#x9;&#x9;&quot;C_REC_WHO_CREATED&quot;
+,&#x9;&#x9;&quot;C_REC_DATE_MODIFIED&quot;
+,&#x9;&#x9;&quot;C_REC_WHO_MODIFIED&quot;
+,&#x9;&#x9;&quot;C_CROPGMCATEGORY&quot;
+,&#x9;&#x9;&quot;CRP_BAYER_UID&quot;
+,&#x9;&#x9;&quot;C_OLS_UUID&quot;
+,&#x9;&#x9;&quot;C_OLS_ID&quot;
+FROM&#x9;/shared/json/breeding/&quot;0_Sources&quot;/ds_PRISMSupport/PRISMPRODVeg_Support/prism/V_Crop_Entry</attribute>
+  <attribute name="creationDate" type="LONG">1662720918364</attribute>
+  <attribute name="creatorUserDomain" type="STRING">adpa6.local</attribute>
+  <attribute name="creatorUserId" type="INTEGER">20149</attribute>
+  <attribute name="creatorUserName" type="STRING">zzhnw</attribute>
+  <attribute name="explicitly.designed" type="BOOLEAN">false</attribute>
+  <attribute name="impactLevelLabel" type="STRING">NONE</attribute>
+  <attribute name="lastModifiedDate" type="LONG">1756480060250</attribute>
+  <attribute name="lastModifiedUserDomain" type="STRING">composite</attribute>
+  <attribute name="lastModifiedUserId" type="INTEGER">-1973</attribute>
+  <attribute name="lastModifiedUserName" type="STRING">admin</attribute>
+  <attribute name="model" type="NULL"/>
+  <attribute name="resourceModifiedDateOnSourceCISSite" type="LONG">1662720918364</attribute>
+</metadata>
